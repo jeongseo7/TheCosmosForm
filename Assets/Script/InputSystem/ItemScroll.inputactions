@@ -1,0 +1,34 @@
+{
+    "name": "ItemScroll",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1dc2c723-e55b-42d1-8f05-3d9ecb8ae548",
+            "actions": [
+                {
+                    "name": "Weapon Scroll",
+                    "type": "Value",
+                    "id": "df7e12fe-cb0f-4e0d-ab87-0609d6d82556",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1210e6a4-c30f-4f65-9841-1b71479e6b7c",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Weapon Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
